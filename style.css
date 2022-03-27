@@ -1,0 +1,144 @@
+.label1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #010101;
+}
+
+p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #010101;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.main {
+  background: #010101;
+  max-width: 1366px;
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rectangle-8 {
+  width: 116px;
+  height: 42px;
+  margin: 17px 75px 18px;
+  background: #6fcf97;
+  border-radius: 2px;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+}
+
+.info-box a {
+  color: #ffffff;
+  align-items: center;
+  margin-left: 62px;
+  text-decoration: none;
+}
+
+.rectangle-9 {
+  width: 160px;
+  height: 40px;
+  margin: 18px 75px 19px;
+  background: #6fcf97;
+  border-radius: 5px;
+}
+
+.first-section {
+  margin: 91px 75px 9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rectangle-1 {
+  width: 384px;
+  height: 232px;
+  background: #010101;
+  border-radius: 5px;
+}
+
+.second-section {
+  margin: 89px 75px 71px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rectangle-2 {
+  width: 384px;
+  height: 463px;
+  background: #010101;
+  border-radius: 5px;
+  margin-right: 32px;
+}
+
+.rectangle-3 {
+  width: 161.51px;
+  height: 145px;
+  background: #010101;
+  border-radius: 5px;
+  margin-bottom: 14px;
+}
+
+.label2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #010101;
+}
+
+.wrapper-casc {
+  display: flex;
+}
+
+.rectangle-4 {
+  width: 174px;
+  height: 219px;
+  background: #010101;
+  border-radius: 5px;
+}
+
+.third {
+  margin: 71px 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.rectangle-6,
+.rectangle-7 {
+  width: 590px;
+  height: 207px;
+  background: #010101;
+  border-radius: 5px;
+}
+
+.final {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rectangle-5 {
+  width: 1216px;
+  height: 207px;
+  background: #010101;
+  border-radius: 5px;
+  margin: 0 73px 91px 77px;
+}
