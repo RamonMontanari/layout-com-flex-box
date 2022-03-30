@@ -1,26 +1,18 @@
-.label1 {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 120%;
-  color: #010101;
-}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
 
-p {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 120%;
-  color: #010101;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   background-color: #e5e5e5;
 }
 
-.main {
+/* -----HEAD-----*/
+.head {
   background: #010101;
   max-width: 1366px;
   height: 77px;
@@ -56,10 +48,12 @@ body {
   border-radius: 5px;
 }
 
+/* -----MAIN----- */
+
 .first-section {
-  margin: 91px 75px 9px;
+  margin: 91px auto;
+  width: 1192px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -70,11 +64,31 @@ body {
   border-radius: 5px;
 }
 
+.label1 {
+  display: block;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #010101;
+  margin: 8px 0;
+}
+
+p {
+  display: block;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #010101;
+}
+
 .second-section {
-  margin: 89px 75px 71px;
+  margin: 0 75px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .rectangle-2 {
@@ -85,12 +99,24 @@ body {
   margin-right: 32px;
 }
 
+.middle-three {
+  display: flex;
+  max-width: 384px;
+}
+
 .rectangle-3 {
-  width: 161.51px;
+  width: 161px;
   height: 145px;
   background: #010101;
   border-radius: 5px;
   margin-bottom: 14px;
+  box-sizing: border-box;
+}
+
+.co-author{
+  display: flex;
+  flex-direction: column;
+  margin: 0 34px 0 14px;
 }
 
 .label2 {
@@ -102,8 +128,15 @@ body {
   color: #010101;
 }
 
-.wrapper-casc {
+.solo-two {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.solo-second {
+  display: flex;
+  max-width: 382px;
 }
 
 .rectangle-4 {
@@ -111,14 +144,22 @@ body {
   height: 219px;
   background: #010101;
   border-radius: 5px;
+  margin-bottom: 14px;
+  box-sizing: border-box;
 }
 
+.solo {
+  display:flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+/* -----THIRD----- */
 .third {
   margin: 71px 75px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: space-between;
+  justify-content: space-between;
 }
 
 .rectangle-6,
@@ -128,6 +169,8 @@ body {
   background: #010101;
   border-radius: 5px;
 }
+
+/* -----FOOTER----- */
 
 .final {
   display: flex;
