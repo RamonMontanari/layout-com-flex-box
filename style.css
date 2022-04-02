@@ -70,7 +70,6 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 120%;
   color: #010101;
   margin: 8px 0;
 }
@@ -101,7 +100,9 @@ p {
 
 .middle-three {
   display: flex;
-  max-width: 384px;
+  justify-content: center;
+  align-items: center;
+  width: 384px;  
 }
 
 .rectangle-3 {
@@ -110,13 +111,14 @@ p {
   background: #010101;
   border-radius: 5px;
   margin-bottom: 14px;
+
   box-sizing: border-box;
 }
 
 .co-author{
-  display: flex;
-  flex-direction: column;
-  margin: 0 34px 0 14px;
+    display: flex;
+    flex-direction: column;
+    margin: 14px 5px 34px 44px;
 }
 
 .label2 {
@@ -124,7 +126,6 @@ p {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 120%;
   color: #010101;
 }
 
@@ -152,9 +153,10 @@ p {
   display:flex;
   flex-direction: column;
   margin-left: 16px;
+  width: 50%;
 }
 
-/* -----THIRD----- */
+/* -----THIRD-----*/
 .third {
   margin: 71px 75px;
   display: flex;
