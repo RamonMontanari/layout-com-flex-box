@@ -102,7 +102,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 384px;  
+  width: 384px;
+  box-sizing: border-box;  
 }
 
 .rectangle-3 {
@@ -111,14 +112,12 @@ p {
   background: #010101;
   border-radius: 5px;
   margin-bottom: 14px;
-
-  box-sizing: border-box;
+  margin-right: 14px;
 }
 
 .co-author{
     display: flex;
-    flex-direction: column;
-    margin: 14px 5px 34px 44px;
+    flex-direction: column;    
 }
 
 .label2 {
