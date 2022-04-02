@@ -51,10 +51,10 @@ body {
 /* -----MAIN----- */
 
 .first-section {
-  margin: 91px auto;
+  margin: 91px;
   width: 1192px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .rectangle-1 {
@@ -62,6 +62,7 @@ body {
   height: 232px;
   background: #010101;
   border-radius: 5px;
+  margin-right: 32px;
 }
 
 .label1 {
@@ -84,10 +85,11 @@ p {
   color: #010101;
 }
 
+/*---------------------------*/
 .second-section {
   margin: 0 75px;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 
 .rectangle-2 {
@@ -98,12 +100,16 @@ p {
   margin-right: 32px;
 }
 
+.fix {
+  width: 384px;
+  display: column;
+  justify-content: center;
+  margin-right: 32px;
+}
+
 .middle-three {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 384px;
-  box-sizing: border-box;  
 }
 
 .rectangle-3 {
@@ -115,28 +121,46 @@ p {
   margin-right: 14px;
 }
 
-.co-author{
-    display: flex;
-    flex-direction: column;    
+.co-author {
+  display: flex;
+  flex-direction: column;
 }
 
 .label2 {
+  width: 161px;
+  height: 31px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   color: #010101;
+  margin-top: 14px;
+  margin-bottom: 5px;
 }
 
+.co-author span {
+  height: 18px;
+  width: 174px;
+  margin-bottom: 17px;
+}
+
+.co-author p {
+  height: 37px;
+  width: 208px;
+}
+
+/*-------------------------------*/
 .solo-two {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .solo-second {
   display: flex;
-  max-width: 382px;
+  width: 382px;
+  height: 220px;
+  margin-bottom: 25px;
 }
 
 .rectangle-4 {
@@ -144,31 +168,63 @@ p {
   height: 219px;
   background: #010101;
   border-radius: 5px;
-  margin-bottom: 14px;
-  box-sizing: border-box;
+  margin-right: 16px;
 }
 
 .solo {
-  display:flex;
+  display: flex;
   flex-direction: column;
-  margin-left: 16px;
-  width: 50%;
+}
+
+.label3 {
+  width: 161px;
+  height: 31px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.solo span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 17px;
+}
+
+.solo p {
+  width: 192px;
+  height: 37px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 /* -----THIRD-----*/
 .third {
-  margin: 71px 75px;
+  margin: 71px 76px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.rectangle-6,
+.rectangle-6 {
+  width: 590px;
+  height: 207px;
+  background: #010101;
+  border-radius: 5px;
+  margin-right: 34px;
+}
+
 .rectangle-7 {
   width: 590px;
   height: 207px;
   background: #010101;
   border-radius: 5px;
+
 }
 
 /* -----FOOTER----- */
