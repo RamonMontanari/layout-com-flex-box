@@ -12,6 +12,7 @@ body {
 }
 
 /* -----HEAD-----*/
+
 .head {
   background: #010101;
   max-width: 1366px;
@@ -205,10 +206,11 @@ p {
 
 /* -----THIRD-----*/
 .third {
-  margin: 71px 76px;
+  margin: 71px 75px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+
 }
 
 .rectangle-6 {
@@ -217,6 +219,7 @@ p {
   background: #010101;
   border-radius: 5px;
   margin-right: 34px;
+  box-sizing: border-box;
 }
 
 .rectangle-7 {
@@ -224,21 +227,17 @@ p {
   height: 207px;
   background: #010101;
   border-radius: 5px;
-
+  box-sizing: border-box;
 }
 
 /* -----FOOTER----- */
 
-.final {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.rectangle-5 {
+.rectangle-5 {  
   width: 1216px;
   height: 207px;
   background: #010101;
+  display: flex;
   border-radius: 5px;
-  margin: 0 73px 91px 77px;
+  margin: 0 75px 91px;
+  box-sizing: border-box;
 }
