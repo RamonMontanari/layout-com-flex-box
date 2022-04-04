@@ -87,10 +87,10 @@ p {
 }
 
 /*---------------------------*/
-.second-section {
-  margin: 0 75px;
+.second-section {  
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .rectangle-2 {
